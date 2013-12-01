@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/chiroptera/workspace/psd/hardware/usb2bram_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="usb2bram_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wave_markers>
+      <marker time="1915000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/btn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/currstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">currstate</obj_property>
+      <obj_property name="ObjectShortName">currstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/executing" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">executing</obj_property>
+      <obj_property name="ObjectShortName">executing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/finished_reading" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">finished_reading</obj_property>
+      <obj_property name="ObjectShortName">finished_reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/adding_nodes" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adding_nodes</obj_property>
+      <obj_property name="ObjectShortName">adding_nodes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/qaddfinish" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">qaddfinish</obj_property>
+      <obj_property name="ObjectShortName">qaddfinish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freq_ram_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">freq_ram_enable</obj_property>
+      <obj_property name="ObjectShortName">freq_ram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freq_ram_wenable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">freq_ram_wenable</obj_property>
+      <obj_property name="ObjectShortName">freq_ram_wenable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue_ram_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">queue_ram_enable</obj_property>
+      <obj_property name="ObjectShortName">queue_ram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue_ram_wenable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">queue_ram_wenable</obj_property>
+      <obj_property name="ObjectShortName">queue_ram_wenable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">freq[12:0]</obj_property>
+      <obj_property name="ObjectShortName">freq[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freq_adr" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">freq_adr</obj_property>
+      <obj_property name="ObjectShortName">freq_adr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freq_seeker" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">freq_seeker[6:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_seeker[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/s_queue_ram_wenable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_queue_ram_wenable</obj_property>
+      <obj_property name="ObjectShortName">s_queue_ram_wenable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">freqcount[0:127]</obj_property>
+      <obj_property name="ObjectShortName">freqcount[0:127]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[1]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[2]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[3]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[4]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[5]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[6]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[7]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[8]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[9]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[10]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[11]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[12]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[13]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[14]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[15]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[16]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[17]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[18]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[19]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[20]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[21]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[22]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[23]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[25]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[26]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[27]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[28]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[29]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[30]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[31]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[32]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[33]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[34]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[35]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[36]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[37]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[38]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[39]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[40]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[41]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[42]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[43]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[44]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[45]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[46]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[47]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[48]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[49]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[50]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[51]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[52]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[53]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[54]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[55]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[56]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[57]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[58]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[59]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[60]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[61]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[62]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[63]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[64]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[64]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[65]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[65]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[66]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[66]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[67]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[67]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[68]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[68]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[69]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[69]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[70]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[70]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[71]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[71]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[72]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[72]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[73]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[73]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[74]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[74]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[75]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[75]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[76]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[76]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[77]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[77]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[78]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[78]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[79]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[79]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[80]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[80]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[81]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[81]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[82]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[82]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[83]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[83]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[84]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[84]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[85]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[85]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[86]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[86]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[87]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[87]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[88]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[88]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[89]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[89]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[90]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[90]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[91]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[91]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[92]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[92]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[93]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[93]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[94]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[94]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[95]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[95]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[96]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[96]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[97]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[97]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[98]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[98]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[99]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[99]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[100]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[100]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[101]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[101]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[102]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[102]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[103]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[103]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[104]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[104]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[105]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[105]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[106]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[106]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[107]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[107]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[108]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[108]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[109]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[109]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[110]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[110]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[111]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[111]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[112]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[112]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[113]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[113]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[114]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[114]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[115]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[115]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[116]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[116]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[117]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[117]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[118]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[118]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[119]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[119]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[120]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[120]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[121]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[121]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[122]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[122]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[123]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[123]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[124]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[124]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[125]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[125]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[126]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[126]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freqcount[127]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">freqcount[127]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">queue[0:167]</obj_property>
+      <obj_property name="ObjectShortName">queue[0:167]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">queue[0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">queue[1]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">queue[2]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">queue[3]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">queue[4]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">queue[5]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">queue[6]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">queue[7]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">queue[8]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">queue[9]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">queue[10]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">queue[11]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">queue[12]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">queue[13]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">queue[14]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">queue[15]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">queue[16]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">queue[17]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">queue[18]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">queue[19]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">queue[20]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">queue[21]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">queue[22]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">queue[23]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">queue[24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">queue[25]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">queue[26]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">queue[27]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">queue[28]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">queue[29]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">queue[30]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">queue[31]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">queue[32]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">queue[33]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">queue[34]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">queue[35]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">queue[36]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">queue[37]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">queue[38]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">queue[39]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">queue[40]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">queue[41]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">queue[42]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">queue[43]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">queue[44]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">queue[45]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">queue[46]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">queue[47]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">queue[48]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">queue[49]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">queue[50]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">queue[51]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">queue[52]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">queue[53]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">queue[54]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">queue[55]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">queue[56]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">queue[57]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">queue[58]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">queue[59]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">queue[60]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">queue[61]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">queue[62]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">queue[63]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[64]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">queue[64]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[65]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">queue[65]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[66]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">queue[66]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[67]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">queue[67]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[68]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">queue[68]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[69]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">queue[69]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[70]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">queue[70]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[71]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">queue[71]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[72]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">queue[72]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[73]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">queue[73]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[74]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">queue[74]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[75]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">queue[75]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[76]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">queue[76]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[77]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">queue[77]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[78]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">queue[78]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[79]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">queue[79]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[80]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">queue[80]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[81]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">queue[81]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[82]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">queue[82]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[83]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">queue[83]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[84]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">queue[84]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[85]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">queue[85]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[86]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">queue[86]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[87]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">queue[87]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[88]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">queue[88]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[89]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">queue[89]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[90]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">queue[90]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[91]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">queue[91]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[92]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">queue[92]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[93]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">queue[93]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[94]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">queue[94]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[95]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">queue[95]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[96]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">queue[96]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[97]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">queue[97]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[98]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">queue[98]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[99]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">queue[99]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[100]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">queue[100]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[101]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">queue[101]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[102]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">queue[102]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[103]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">queue[103]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[104]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">queue[104]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[105]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">queue[105]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[106]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">queue[106]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[107]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">queue[107]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[108]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">queue[108]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[109]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">queue[109]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[110]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">queue[110]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[111]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">queue[111]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[112]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">queue[112]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[113]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">queue[113]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[114]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">queue[114]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[115]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">queue[115]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[116]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">queue[116]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[117]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">queue[117]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[118]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">queue[118]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[119]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">queue[119]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[120]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">queue[120]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[121]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">queue[121]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[122]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">queue[122]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[123]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">queue[123]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[124]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">queue[124]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[125]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">queue[125]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[126]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">queue[126]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[127]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">queue[127]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[128]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[128]</obj_property>
+         <obj_property name="ObjectShortName">queue[128]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[129]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[129]</obj_property>
+         <obj_property name="ObjectShortName">queue[129]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[130]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[130]</obj_property>
+         <obj_property name="ObjectShortName">queue[130]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[131]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[131]</obj_property>
+         <obj_property name="ObjectShortName">queue[131]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[132]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[132]</obj_property>
+         <obj_property name="ObjectShortName">queue[132]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[133]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[133]</obj_property>
+         <obj_property name="ObjectShortName">queue[133]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[134]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[134]</obj_property>
+         <obj_property name="ObjectShortName">queue[134]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[135]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[135]</obj_property>
+         <obj_property name="ObjectShortName">queue[135]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[136]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[136]</obj_property>
+         <obj_property name="ObjectShortName">queue[136]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[137]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[137]</obj_property>
+         <obj_property name="ObjectShortName">queue[137]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[138]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[138]</obj_property>
+         <obj_property name="ObjectShortName">queue[138]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[139]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[139]</obj_property>
+         <obj_property name="ObjectShortName">queue[139]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[140]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[140]</obj_property>
+         <obj_property name="ObjectShortName">queue[140]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[141]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[141]</obj_property>
+         <obj_property name="ObjectShortName">queue[141]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[142]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[142]</obj_property>
+         <obj_property name="ObjectShortName">queue[142]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[143]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[143]</obj_property>
+         <obj_property name="ObjectShortName">queue[143]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[144]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[144]</obj_property>
+         <obj_property name="ObjectShortName">queue[144]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[145]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[145]</obj_property>
+         <obj_property name="ObjectShortName">queue[145]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[146]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[146]</obj_property>
+         <obj_property name="ObjectShortName">queue[146]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[147]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[147]</obj_property>
+         <obj_property name="ObjectShortName">queue[147]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[148]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[148]</obj_property>
+         <obj_property name="ObjectShortName">queue[148]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[149]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[149]</obj_property>
+         <obj_property name="ObjectShortName">queue[149]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[150]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[150]</obj_property>
+         <obj_property name="ObjectShortName">queue[150]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[151]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[151]</obj_property>
+         <obj_property name="ObjectShortName">queue[151]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[152]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[152]</obj_property>
+         <obj_property name="ObjectShortName">queue[152]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[153]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[153]</obj_property>
+         <obj_property name="ObjectShortName">queue[153]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[154]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[154]</obj_property>
+         <obj_property name="ObjectShortName">queue[154]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[155]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[155]</obj_property>
+         <obj_property name="ObjectShortName">queue[155]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[156]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[156]</obj_property>
+         <obj_property name="ObjectShortName">queue[156]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[157]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[157]</obj_property>
+         <obj_property name="ObjectShortName">queue[157]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[158]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[158]</obj_property>
+         <obj_property name="ObjectShortName">queue[158]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[159]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[159]</obj_property>
+         <obj_property name="ObjectShortName">queue[159]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[160]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[160]</obj_property>
+         <obj_property name="ObjectShortName">queue[160]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[161]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[161]</obj_property>
+         <obj_property name="ObjectShortName">queue[161]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[162]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[162]</obj_property>
+         <obj_property name="ObjectShortName">queue[162]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[163]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[163]</obj_property>
+         <obj_property name="ObjectShortName">queue[163]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[164]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[164]</obj_property>
+         <obj_property name="ObjectShortName">queue[164]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[165]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[165]</obj_property>
+         <obj_property name="ObjectShortName">queue[165]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[166]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[166]</obj_property>
+         <obj_property name="ObjectShortName">queue[166]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[167]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[167]</obj_property>
+         <obj_property name="ObjectShortName">queue[167]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
