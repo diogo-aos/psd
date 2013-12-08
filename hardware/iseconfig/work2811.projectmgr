@@ -7,15 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/usb2bram - Structural |home|chiroptera|workspace|psd|hardware|usb2bram.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Inst_datapath - datapath - Behavioral (/home/chiroptera/workspace/psd/hardware/datapath.vhd)</SelectedItem>
+         <SelectedItem>usb2bram - Structural (/home/vasco/Documents/myIST/PSD/lab4/work0112/usb2bram.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000202000000020000000000000000000000000200000064ffffffff000000810000000300000002000002020000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Inst_datapath - datapath - Behavioral (/home/chiroptera/workspace/psd/hardware/datapath.vhd)</CurrentItem>
+      <CurrentItem>usb2bram - Structural (/home/vasco/Documents/myIST/PSD/lab4/work0112/usb2bram.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -50,7 +51,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000287000000010001000100000000000000000000000064ffffffff000000810000000000000001000002870000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000125000000010001000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -67,11 +68,11 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000115000000010000000100000000000000000000000064ffffffff000000810000000000000001000001150000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff0000000000000002000001200000007a01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -79,16 +80,15 @@
          <ClosedNode>/controlo_tb - behavior |home|chiroptera|workspace|psd|hardware|controlo_tb.vhd</ClosedNode>
          <ClosedNode>/fpga_tb - behavior |home|chiroptera|workspace|psd|hardware|fpga_tb.vhd</ClosedNode>
          <ClosedNode>/memIN_tb - behavior |home|chiroptera|workspace|psd|hardware|memIN_tb.vhd</ClosedNode>
-         <ClosedNode>/usb2bram_tb - behavior |home|chiroptera|workspace|psd|hardware|usb2bram_tb.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>usb2bram_tb - behavior (/home/chiroptera/workspace/psd/hardware/usb2bram_tb.vhd)</SelectedItem>
+         <SelectedItem>memIN_tb - behavior (/home/chiroptera/workspace/psd/hardware/memIN_tb.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000216000000020000000000000000000000000200000064ffffffff000000810000000300000002000002160000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>usb2bram_tb - behavior (/home/chiroptera/workspace/psd/hardware/usb2bram_tb.vhd)</CurrentItem>
+      <CurrentItem>memIN_tb - behavior (/home/chiroptera/workspace/psd/hardware/memIN_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

@@ -178,7 +178,8 @@ architecture Structural of usb2bram is
 		queue_ram_wenable : in std_logic;	 
 		adding_nodes : in std_logic;
 		qAddFinish : out std_logic;
-		qTree : in std_logic
+		qTree : in std_logic;
+    final_queue : out std_logic
     );
   end component;
   component controlo
@@ -189,17 +190,18 @@ architecture Structural of usb2bram is
       finished_reading : in std_logic;
       freq_ram_enable : out std_logic;
       freq_ram_wenable : out std_logic;
-	   queue_ram_enable : out std_logic;
-	   queue_ram_wenable : out std_logic;	 
-	   adding_nodes : out std_logic;
-		qAddFinish : in std_logic;
-		qTree : out std_logic
+      queue_ram_enable : out std_logic;
+      queue_ram_wenable : out std_logic;	 
+      adding_nodes : out std_logic;
+      qAddFinish : in std_logic;
+      qTree : out std_logic;
+      final_queue : in std_logic
     );
   end component;
   
   signal s_freq_ram_wenable, s_freq_ram_enable, s_finished_reading : std_logic;
   signal s_queue_ram_wenable, s_queue_ram_enable, s_adding_nodes, s_qAddFinish : std_logic;
-  signal s_qTree : std_logic;
+  signal s_qTree, s_final_queue : std_logic;
   
 begin
 
@@ -310,7 +312,8 @@ begin
      queue_ram_wenable => s_queue_ram_wenable,
 	  adding_nodes => s_adding_nodes,
 	  qAddFinish => s_qAddFinish,
-	  qTree => s_qTree
+	  qTree => s_qTree,
+    final_queue => s_final_queue
   );
 
   Inst_controlo: controlo port map(
@@ -327,6 +330,7 @@ begin
     queue_ram_wenable => s_queue_ram_wenable,
 	 adding_nodes => s_adding_nodes,
 	 qAddFinish => s_qAddFinish,
-	 qTree => s_qTree
+	 qTree => s_qTree,
+   final_queue => s_final_queue
   );
 end Structural;
