@@ -14,18 +14,22 @@ entity controlo is
 	 queue_ram_enable : out std_logic;
 	 queue_ram_wenable : out std_logic;	 
 	 adding_nodes : out std_logic;
-	 qAddFinish : in std_logic
+	 qAddFinish : in std_logic;
+	 qTree : out std_logic
   );
 end controlo;
 
 architecture Behavioral of controlo is
-  type fsm_states is (s_initial, s_end, s_exec, s_last_exec, s_readChar, s_saveFreq, s_queue_init, s_queueFinish);
+  type fsm_states is (s_initial, s_transit1, s_end, s_exec, s_last_exec, s_readChar, s_saveFreq,
+                      s_queue_init, s_queueFinish, s_treeSeek, s_treeJoinAdd);
   signal currstate, nextstate: fsm_states;
-  signal count_en, end_of_counting : std_logic;
+  signal count_en, end_of_counting,s_qAddFinish : std_logic;
   signal count : std_logic_vector (10 downto 0);
   constant countEND : std_logic_vector (10 downto 0) := (others => '1');
 begin
   end_of_counting <= '1' when finished_reading = '1' else '0';
+  s_qAddFinish <= '1' when qAddFinish = '1' else '0';
+
   state_reg: process (clk, rst)
   begin
     if rst = '1' then
@@ -35,81 +39,122 @@ begin
     end if ;
   end process;
 
-  state_comb: process (currstate, start, end_of_counting)
-  begin  --  process
-    nextstate <= currstate ;
-    -- by default, does not change the state.
-    executing <= '0';
-    count_en <= '0';
-    freq_ram_wenable <= '0';
-    freq_ram_enable <= '0';
-	 
-	 adding_nodes <= '0';	 
-	 queue_ram_enable <= '0';
-	 queue_ram_wenable <= '0';
+	OUTPUT_DECODE: process (currstate)
+   begin
+      --insert statements to decode internal output signals
+      --below is simple example
+		 executing <= '0';
+		 count_en <= '0';
+		 freq_ram_wenable <= '0';
+		 freq_ram_enable <= '0';
+		 
+		 adding_nodes <= '0';	 
+		 queue_ram_enable <= '0';
+		 queue_ram_wenable <= '0';
 
-    case currstate is
-      when s_initial =>
-        if start='1' then
-          nextstate <= s_exec ;
-        end if;
-      when s_exec =>
-        if end_of_counting = '1' then
-          nextstate <= s_queue_init;
-        else
-          nextstate <= s_readChar;
-        end if;
-        executing <= '1';
-
-      -- Estados de leitura de ficheiro
-      when s_readChar =>
-        count_en <= '1';
+		 qTree <= '0';
+		
+      if currstate = s_initial then
+ 		elsif currstate = s_exec then
+			executing <= '1';
+			
+		elsif currstate = s_readChar then
+		  count_en <= '1';
         freq_ram_wenable <= '0';
         freq_ram_enable <= '1';
-        nextstate <= s_saveFreq;
 		  executing <= '1';
-	     if end_of_counting = '1' then
-          nextstate <= s_queue_init;
-        else
-          nextstate <= s_savefreq;
-        end if;
 		  
-      when s_saveFreq =>
+		elsif currstate = s_saveFreq then
         freq_ram_wenable <= '1';
         freq_ram_enable <= '1';
-	     nextstate <= s_readChar;
-		  
-      -- Fim Estados de leitura de ficheiro
-      
-      -- Estados da queue
-      when s_queue_init =>
+
+		elsif currstate = s_transit1 then
+			freq_ram_enable <= '1';
+			adding_nodes <= '1';
+			
+		elsif currstate = s_queue_init then
 		  freq_ram_enable <= '1';
 		  adding_nodes <= '1';
         queue_ram_enable <= '1';
 		  queue_ram_wenable <= '1';
 		  adding_nodes <= '1';
-		  nextstate <= s_queue_init;
-	     if qAddFinish = '1' then
-          nextstate <= s_queueFinis;
-        else
-          nextstate <= s_queue_init;
-        end if;
+		  executing <= '1';
 		  
-      when s_queueFinish =>
+		elsif currstate = s_queueFinish then
 		  freq_ram_enable <= '1';
         queue_ram_enable <= '1';
 		  queue_ram_wenable <= '1';
-		  adding_nodes <= '1';
-		  nextstate <= s_last_exec;
-      -- Fim estados da queue
+		  adding_nodes <= '0';
+		  
+		elsif currstate = s_treeSeek then
+		  queue_ram_enable <= '1';
 		
-      when s_last_exec =>
-        nextstate <= s_end;
+		elsif currstate = s_treeJoinAdd then
+		
+		elsif currstate = s_last_exec then
         count_en <= '1';
         executing <= '1';
-      when s_end =>
-    end case;
-  end process;
+		  
+      else
+
+      end if;
+   end process;
+ 
+   nextstate_DECODE: process (currstate, start, end_of_counting, s_qAddFinish)
+   begin
+      --declare default state for nextstate to avoid latches
+      nextstate <= currstate;
+
+      case (currstate) is
+         when s_initial =>
+            if start='1' then
+					nextstate <= s_exec ;
+				end if;
+				
+		 -- Estados de leitura de ficheiro
+         when s_exec =>
+            nextstate <= s_readChar;
+
+         when s_readChar =>
+			  if end_of_counting = '1' then
+				 nextstate <= s_transit1;
+			  else
+				 nextstate <= s_savefreq;
+			  end if;
+			  
+         when s_saveFreq =>
+            nextstate <= s_readChar;
+				
+			when s_transit1 =>
+				nextstate <= s_queue_init;
+      -- Fim Estados de leitura de ficheiro
+      
+      -- Estados da queue		
+		
+         when s_queue_init =>
+				  if s_qAddFinish = '1' then
+					 nextstate <= s_queueFinish;
+				  else
+					 nextstate <= s_queue_init;
+				  end if;
+				
+         when s_queueFinish =>
+            nextstate <= s_treeSeek;
+
+         when s_treeSeek =>
+            nextstate <= s_treeJoinAdd;
+
+         when s_treeJoinAdd =>
+            nextstate <= s_last_exec;
+      -- Fim estados da queue		
+		
+         when s_last_exec =>
+            nextstate <= s_end;
+				
+			when s_end =>
+				
+      end case;      
+   end process;
 
   process (clk, rst)
   begin

@@ -17,7 +17,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="19" />
+   <WVObjectSize size="21" />
    <wave_markers>
       <marker time="1915000000" label="" />
    </wave_markers>
@@ -37,6 +37,10 @@
       <obj_property name="ElementShortName">currstate</obj_property>
       <obj_property name="ObjectShortName">currstate</obj_property>
    </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/nextstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">nextstate</obj_property>
+      <obj_property name="ObjectShortName">nextstate</obj_property>
+   </wvobject>
    <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/executing" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">executing</obj_property>
       <obj_property name="ObjectShortName">executing</obj_property>
@@ -52,6 +56,10 @@
    <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/qaddfinish" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">qaddfinish</obj_property>
       <obj_property name="ObjectShortName">qaddfinish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/usb2bram_tb/uut/Inst_controlo/s_qaddfinish" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_qaddfinish</obj_property>
+      <obj_property name="ObjectShortName">s_qaddfinish</obj_property>
    </wvobject>
    <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/datain" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">datain[7:0]</obj_property>
@@ -86,7 +94,7 @@
    <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/freq_seeker" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">freq_seeker[6:0]</obj_property>
       <obj_property name="ObjectShortName">freq_seeker[6:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/s_queue_ram_wenable" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">s_queue_ram_wenable</obj_property>
@@ -745,6 +753,27 @@
          <obj_property name="ElementShortName">[0]</obj_property>
          <obj_property name="ObjectShortName">queue[0]</obj_property>
          <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[0].char" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">.char</obj_property>
+            <obj_property name="ObjectShortName">queue[0].char</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[0].freq" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">.freq</obj_property>
+            <obj_property name="ObjectShortName">queue[0].freq</obj_property>
+         </wvobject>
+         <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[0].left_adr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">.left_adr</obj_property>
+            <obj_property name="ObjectShortName">queue[0].left_adr</obj_property>
+         </wvobject>
+         <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[0].right_adr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">.right_adr</obj_property>
+            <obj_property name="ObjectShortName">queue[0].right_adr</obj_property>
+         </wvobject>
+         <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[0].queued" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">.queued</obj_property>
+            <obj_property name="ObjectShortName">queue[0].queued</obj_property>
+         </wvobject>
       </wvobject>
       <wvobject fp_name="/usb2bram_tb/uut/Inst_datapath/queue[1]" type="array" db_ref_id="1">
          <obj_property name="ElementShortName">[1]</obj_property>

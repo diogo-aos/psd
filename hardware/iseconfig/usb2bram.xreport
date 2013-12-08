@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-11-30T13:40:51</DateModified>
+  <DateModified>2013-12-03T17:20:52</DateModified>
   <ModuleName>usb2bram</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2013-12-01T18:49:50</SummaryTimeStamp>
   <SavedFilePath>/home/chiroptera/workspace/psd/hardware/iseconfig/usb2bram.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/chiroptera/workspace/psd/hardware/</ImplementationReportsDirectory>
   <DateInitialized>2013-11-28T14:23:30</DateInitialized>
